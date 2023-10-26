@@ -1,0 +1,603 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Parham Mostame Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+				<div class="inner">
+					<a class="image avatar"><img src="images/avatar.jpg" alt=""/></a>
+					<h1><strong>Parham Mostame</strong></h1>
+					<p> PhD candidate @ The University of Illinois at Urbana Champaign
+					<br>Major in Neuroscience & Minor in Data science</br></p>
+
+					<h5>TECHNICAL SKILLS</h5>
+					<p>Data preprocessing | High-dimensional data | Dimensionality reduction <br>
+					Deep learning | Computer vision | Machine learning | Data mining <br>
+					Signal processing | Image processing | Network analysis <br>
+					Stochastic processes | Statistical testing | Bayesian statistics </p>
+
+					<h5>CODING</h5>
+					<p>Python | MATLAB | SQL | C | AVR | ARM</p>
+
+					<h5>SOFT SKILLS</h5>
+					<p>Time management | Communication | Critical thinking | Teamwork |
+						Efficient writting | Public speaking</p>
+					
+					<h5>HOBBIES</h5>
+					<p>Volleyball | Cooking | Boxing | House plants | Nonfiction books</p>
+
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+						<h2>Welcome to my online portfolio...</h2>
+						<p align="justify"> 
+						I'm a Neuroscience Ph.D. candidate at the University of Illinois at Urbana-Champaign, specializing in the intersection of <strong>neuroscience</strong> and <strong>data science</strong>. Over the past decade, my research has been focused on the rich and complex realm of brain data. This focus has granted me a profound understanding of high-dimensional data, along with expertise in data science, machine learning, and statistical techniques.
+						<br><br>My academic journey reflects a dedicated passion for enhancing healthcare through cutting-edge data science methodologies. Evident in various personal projects I've undertaken in the healthcare domain, these experiences have shaped and refined my skill set for this purpose.
+						<br><br>Driven by an innate <strong>engineering mindset</strong>, I bring critical thinking skills and exceptional communication abilities to the table. Collaborating on international research projects has honed my capacity to seamlessly integrate into interdisciplinary teams, ensuring efficient and impactful contributions.
+						<br><br>For a glimpse into my portfolio, explore the brief overview below.
+						</p>
+						<ul class="actions">
+							<li><a href="/assets/ParhamMostame_OnePage_CV.pdf" target="_blank" class="button">View CV</a></li>
+							<li><a href="https://scholar.google.com/citations?user=PaiFJjAAAAAJ&hl=en" target="_blank" class="button">Google scholar</a></li>
+						</ul>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>Research Projects</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/thumbs/prestim.jpg" class="image fit thumb"><img src="images/thumbs/prestim.jpg" height="300" alt="" /></a>
+								<h3>Brain network dynamics predict perception of consectuive ambiguous stimuli</h3>
+								<p align="justify"> 36 healthy participants where presented with ambiguous cognitive stimuli (e.g. Face/Vase). 
+								From functional MRI data, I extracted participants' brain network dynamics 5 seconds prior to stimulus onset.
+								I trained a kernel-SVM model on the pre-stimulus data which was able to predict the perception of the ambiguous stimulus better than a data-driven permutation-based null model (Z-score > ~10)</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/thumbs/crp.jpg" class="image fit thumb"><img src="images/thumbs/crp.jpg" height="300" alt=""/></a>
+								<h3>Clustering of brain networks reveal brain states that converge between intracranial EEG and fMRI</h3>
+								<p align="justify">I extracted brain network dynamics of 11 epileptic patients in an extremely rare concurrent intracranial EEG and fMRI data.
+								Using K-means clustering, I was able to identify brain states causing the fMRI-iEEG convergence.
+								This study was a highly collaborative project with several neurosurgeons and engineers based across the US and Europe.
+								This study is currently published at BioRxiv as a preprint.
+							</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/phc.jpg" class="image fit thumb"><img src="images/fulls/phc.jpg" height="300" alt="" /></a>
+								<h3>Coupling of brain signals via phase or amplitude reveals distinct mechansims of information exchange</h3>
+								<p align="justify">I studied the spatial and temporal characteristics of amplitude coupling and phase coupling of the brain regions.
+								This study involved a great amount of signal processing and statistical analyses. 
+								This study is published at the NeuroImage journal.
+								</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/thumbs/pilot.jpg" class="image fit thumb"><img src="images/thumbs/pilot.jpg" height="300" alt="" /></a>
+								<h3>Running a pilot study on human cognitive flexibility funded by National Science Foundation (NSF)</h3>
+								<p align="justify">Led a pilot study that received funding by the NSF 
+									(National Science Foundation) in 2023.
+									I designed and developed a graphic user interface to experiment a complicated 
+									cognitive task. I collected behavioral responses of ~20
+									healthy participants and extracted initial results which went
+									into the grant application.</p>
+							</article>
+
+						</div>
+					</section>
+
+
+				<!-- Three -->
+					<section id="three">
+						<h2>Personal Projects</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/kaggle.jpg" class="image fit thumb"><img src="images/fulls/kaggle.jpg" height="300" alt="" /></a>
+								<h3>Multi-organ abdominal trauma detection in CT scans using multi-model deep learning</h3>
+								<p align="justify">I developed a multiple-model deep learning architecture to
+								detect presence of abdominal trauma in four abdominal organs (Liver, Spleen, Kidney, Bowel) and active 
+								extravasation using over 400GB of CT-scan images. After an in-depth data cleaning,
+								I trained a 2D U-Net from scratch to segment the organs (>90% dice score).
+								CT images masked with the calculated segmentations were fed to a downstream CNN architecture
+								to identify the degree of trauma in the corresponding abdominal organ.
+								(~0.20 log-loss error).</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/eyes.jpg" class="image fit thumb"><img src="images/fulls/eyes.jpg" height="300" alt="" /></a>
+								<h3>Prediction of eye state (open/close) in EEG data using kernel SVM</h3>
+								<p align="justify">I implemented an SVM classifier that predicts the state of the eyes
+								(open or closed) using scalp EEG recordings. 
+								This accuracy was above 99% which was only achievable due to intense data cleaning and proper
+								feature extraction. I used Independent Component Analysis (ICA) for removing eye
+								blink artifacts, interpolation for correcting for electrode jump artifacts, 
+								and zero-phase filtering for extracting relevant alpha band oscillations.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/thumbs/Breast.jpg" class="image fit thumb"><img src="images/thumbs/Breast.jpg" height="300" alt="" /></a>
+								<h3>Breast cancer segmentation in X-Ray images using UNet</h3>
+								<p align="justify">I implemented a 2D U-Net from scratch to segment cancerous
+								regions of breast. Despite the unreliable ground truth segmentations
+								of this Kaggle dataswt, I achieved a competitive dice score of ~75%.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/thumbs/Melanoma.jpg" class="image fit thumb"><img src="images/thumbs/Melanoma.jpg" height="300" alt="" /></a>
+								<h3>Melanoma skin cancer detection using CNN</h3>
+								<p align="justify">Designed a CNN architecture to classify Melanoma skin cancer
+								from other benign skin conditions. I achieved an accuracy of approximately 90% in predicting the skin condition.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/thumbs/NoN.jpg" class="image fit thumb"><img src="images/thumbs/NoN.jpg" height="300" alt="" /></a>
+								<h3>"Network of Networks" extracted in EEG using graph node embeddings</h3>
+								<p align="justify">EEG signals unfold across different frequency bands, where each band manifests a brain network.
+								I wanted to characterise the unknown cross-band interaction of such networks.
+								I implemented MANE algorithm from scratch to extract node embeddings of such networks.
+								Extracted node embeddings allowed me to estimate the cross-band interactions. Finally, using K-Means, I identified
+								the recurrent clusters among the observed interaction patterns.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/thumbs/Hair.jpg" class="image fit thumb"><img src="images/thumbs/Hair.jpg" height="300" alt="" /></a>
+								<h3>Implemented an image processing pipeline to remove hairs from skin images</h3>
+								<p align="justify">I applied a sophisticated image processing pipeline using OpenCV library to skin images
+									in order to remove extra hairs that may deteriorate model performance in diagnosis of skin conditions.
+									</p>
+							</article>
+							
+						</div>
+					</section>
+
+
+				<!-- Four -->
+					<section id="four">
+						<h2>Mini-Projects</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Synthetic data generation using GANS</h3>
+								<p align="justify">I implemented a Convolutional Generative Adversarial Network 
+								from scratch and applied to MNIST data to create synthetic MNIST data samples.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>MNIST morphological transform using Variational Autoencoders</h3>
+								<p align="justify">I implemented a Variational Autoencorder to learn the low-dimensional representation of MNIST digits
+									and create morphologically transformed digits.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Stock price prediction using RNN</h3>
+								<p align="justify">I implemeneted an RNN architecture which could reliably predict APPLE and GOOGLE stock price movements over upcoming days.
+								</p>
+							</article>
+							
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Frequenct pattern mining with A-priori algorithm</h3>
+								<p align="justify">I implemented the A-priori algorithm from scratch and applied it to a grocery shopping list dataset.
+								</p>
+							</article>
+							
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Implemented Gaussian Mixture Model (GMM) on simulated data</h3>
+								<p align="justify">I implemeneted from scratch a GMM which could successfully cluster the simulated data.
+							</p>
+							</article>
+							
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Image classification of CIFAR10 dataset using Res-Net</h3>
+								<p align="justify">I implemented from scratch a CNN with residual connections to train on CIFAR10 dataset. MY model achieved >90% accuracy.</p>
+							</article>
+
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Backpropgation implementation from scratch in a Multi-layer perceptron (MLP)</h3>
+								<p align="justify">I implemented a forward-backward propagation algorithm on a neural network architecture from scratch.
+								</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Digit classification in MNIST data using CNN</h3>
+								<p align="justify">I was able to classify MNIST data with my CNN model with >99% accuracy.
+								</p>
+							</article>
+
+						
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Exploratory data analysis of abdominal trauma CT images</h3>
+								<p align="justify">I performed an instensive exploratory data analysis on the abdominal trauma CT scan dataset which is discussed above.</p>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h3>Exploratory data analysis of mental health facilities around the world</h3>
+								<p align="justify">I downloaded several csv data from WHO website in order to build a bigger data on mental health facilities around the world.
+								I first cleaned each csv and then merged them. Finally, I performed an exploratory data analysis on the merged data which resulted in some interesting insights.
+								</p>
+							</article>
+
+						</div>
+					</section>
+
+
+				<!-- Five -->
+					<section id="five">
+						<h2>Getting In Touch</h2>
+						<p>I would be more than happy to discuss these projects in more details. 
+						So please feel free to shoot an email to me using the address below:</p>
+							
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="mailto:parhammostame@gmail.com">parhammostame@gmail.com</a>
+									</li>
+								</ul>
+							</div>
+					</section>
+					
+
+
+				<!-- Four -->
+				<!--
+					<section id="four">
+						<h2>Elements</h2>
+
+						<section>
+							<h4>Text</h4>
+							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+							<hr />
+							<header>
+								<h4>Heading with a Subtitle</h4>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<header>
+								<h5>Heading with a Subtitle</h5>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<hr />
+							<h2>Heading Level 2</h2>
+							<h3>Heading Level 3</h3>
+							<h4>Heading Level 4</h4>
+							<h5>Heading Level 5</h5>
+							<h6>Heading Level 6</h6>
+							<hr />
+							<h5>Blockquote</h5>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+							<h5>Preformatted</h5>
+							<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+						</section>
+
+						<section>
+							<h4>Lists</h4>
+							<div class="row">
+								<div class="col-6 col-12-xsmall">
+									<h5>Unordered</h5>
+									<ul>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+									<h5>Alternate</h5>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<h5>Ordered</h5>
+									<ol>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ol>
+									<h5>Icons</h5>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+									</ul>
+								</div>
+							</div>
+							<h5>Actions</h5>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button primary small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary fit">Default</a></li>
+										<li><a href="#" class="button fit">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section>
+							<h4>Table</h4>
+							<h5>Default</h5>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<h5>Alternate</h5>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
+
+						<section>
+							<h4>Buttons</h4>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Primary</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button large">Large</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<ul class="actions fit">
+								<li><a href="#" class="button primary fit">Fit</a></li>
+								<li><a href="#" class="button fit">Fit</a></li>
+							</ul>
+							<ul class="actions fit small">
+								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+								<li><a href="#" class="button fit small">Fit + Small</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+							</ul>
+							<ul class="actions">
+								<li><span class="button primary disabled">Primary</span></li>
+								<li><span class="button disabled">Default</span></li>
+							</ul>
+						</section>
+
+						<section>
+							<h4>Form</h4>
+							<form method="post" action="#">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Category -</option>
+											<option value="1">Manufacturing</option>
+											<option value="1">Shipping</option>
+											<option value="1">Administration</option>
+											<option value="1">Human Resources</option>
+										</select>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">Low Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-normal" name="demo-priority">
+										<label for="demo-priority-normal">Normal Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">High Priority</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-copy" name="demo-copy">
+										<label for="demo-copy">Email me a copy of this message</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-human" name="demo-human" checked>
+										<label for="demo-human">I am a human and not a robot</label>
+									</div>
+									<div class="col-12">
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+
+						<section>
+							<h4>Image</h4>
+							<h5>Fit</h5>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+							<h5>Left &amp; Right</h5>
+							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						</section>
+
+					</section>
+				-->
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://github.com/pmostame" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/parham-mostame-50775586/" target="_blank" class="icon brands fa-linkedin"><span class="label">Email</span></a></li>
+						<li><a href="https://www.kaggle.com/parhammostame" target="_blank" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+						<li><a href="https://twitter.com/MostameParham" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>						
+						<li><a href="mailto:parhammostame@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+	</body>
+</html>

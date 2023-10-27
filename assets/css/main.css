@@ -161,16 +161,16 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 2em;
-		line-height: 4rem;
+		font-size: 1.75em;
+		line-height: 3rem;
 		font-weight: 800;
 		position: relative;
-		left: -35%;
+		left: -15%;
 		color: #ffffff;
 		background-color: #4f3b07d8;
 		
 		margin: 0 0 2rem 0;
-		padding: 0 6rem 0 35%;
+		padding: 0 2rem 0 15%;
 		width: fit-content;
 		transform: translateX(0rem); /* Adjust the translateX value */
 		border-radius: 50px;
@@ -179,7 +179,7 @@ input, select, textarea {
 
 
 	h2:hover {
-		padding-left: 50%;
+		padding-left: 30%;
 	}
 
 	h3 {
@@ -1787,6 +1787,26 @@ input, select, textarea {
 		}
 
 /* Section/Article */
+	.tags {
+		margin: 0;
+		padding: 0;
+	}
+
+	.tags li {
+		background-color: #e2e2e2;
+		padding: 0em 1em;
+		margin: 0em 0 0 0em;
+		position: relative;
+		display: inline-block;
+		align-content: space-between;
+		color: #2c2b2b;
+		font-size: 0.8em;
+		font-weight: 800;
+		line-height: 1.5em;
+		border-radius: 2em;
+		font-weight: 600;
+		text-align: center;
+	}
 
 	section.special, article.special {
 		text-align: center;
@@ -1824,18 +1844,19 @@ input, select, textarea {
 	header h4 + p,
 	header h5 + p,
 	header h6 + p {
-		font-size: 1rem;
+		font-size: 0.9rem;
 		margin-top: -1em;
 		margin-bottom: -0.5em;
 		line-height: 1.25em;
 		color: rgba(180, 130, 66, 1);
-		;
 	}
 
 	header.major h2 {
-		font-size: 2.5em;
+		font-size: 1.75em;
 	}
 
+
+	
 /* Form */
 
 	form {
@@ -2656,7 +2677,7 @@ input, select, textarea {
 		background-image: url("images/bg.jpg"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								125%;
+		background-size: auto,								100%;
 		color: rgba(168, 116, 116, 0.9);
 		height: 100%;
 		left: 10;
@@ -2682,7 +2703,7 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			margin: 2em 0em 0 0;
+			margin: 1em 0em 0 0;
 			padding: 1em;
 		}
 
@@ -2707,7 +2728,7 @@ input, select, textarea {
 			margin: 0em 0em 0em 0em;
 			left: 0;
 			transform: translateX(-50%);
-			width: 9rem;
+			width: 6rem;
 			height: auto;
 		}
 
@@ -2755,10 +2776,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 32%;
-		max-width: 60%;
+		margin-left: 31%;
+		max-width: 70%;
 		padding: 6em 1em 4em 1em;
-		width: calc(100% - 32%);
+		width: calc(100% - 20%);
 	}
 
 		#main > section {
